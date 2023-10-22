@@ -1,0 +1,59 @@
+.buttonback {
+  height: 70px;
+  width: 200px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+.buttonback:hover,
+.buttonback:focus {
+  -webkit-box-shadow: 0px 0px 23px 18px rgba(63, 81, 181, 0.48);
+  -moz-box-shadow: 0px 0px 23px 18px rgba(63, 81, 181, 0.48);
+  box-shadow: 0px 0px 23px 18px rgba(63, 81, 181, 0.48);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+
+.infomovie {
+  display: flex;
+  gap: 50px;
+  background-color: rgba(74, 73, 73, 0.58);
+  border-radius: 8px;
+  align-items: center;
+  padding: 20px;
+}
+.infotext {
+  max-width: 600px;
+}
+span {
+  font-size: 15px;
+}
+img {
+  border-radius: 8px;
+  width: 350px;
+  height: 550px;
+}
+h3 {
+  font-size: 30px;
+}
+.additional {
+  font-size: 20px;
+  color: white;
+}
+.additional:hover {
+  color: #3f51b5;
+}
+.addisec {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

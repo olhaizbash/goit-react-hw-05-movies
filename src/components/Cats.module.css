@@ -1,0 +1,9 @@
+.catslist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.catsitem {
+  width: 300px;
+  height: 400px;
+}
